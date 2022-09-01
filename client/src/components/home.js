@@ -25,7 +25,6 @@ export default function Home() {
     const allVideogames = useSelector((state) => state.videogames);
     const [page, setPage] = useState(1);
     const [order, serOrder] = useState('');
-    //const [loading, setLoading] = useState(false)
     const videogamesPerPage = 15;
     const lastVideogamePerPage = page * videogamesPerPage;
     const firstVideogamePerPage = lastVideogamePerPage - videogamesPerPage;

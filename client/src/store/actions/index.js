@@ -31,7 +31,7 @@ export const getDetails = (id) => {
             return await axios.get(`http://localhost:3001/videogame/${id}`)
             .then(res => dispatch({type: GET_DETAILS, payload: res.data}))
         } catch (error) {
-            console.log(error)
+            alert(error)
         }
     }
 };
@@ -42,7 +42,7 @@ export const searchByName = (name) => {
             return await axios.get(`http://localhost:3001/videogames?name=${name}`)
             .then(res => dispatch({type: SEARCH_BY_NAME, payload: res.data}))
         } catch (error) {
-            console.log(error)
+            alert(error)
         }
     }
 };
