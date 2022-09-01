@@ -1,0 +1,164 @@
+/* body{
+    //background-color: hsl(219, 48%, 8%);
+    //background-color: #293462;
+    background-image: url(../../images/mobile-background-copia2.jpg);
+    background-size: auto 440px;
+} */
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 10px;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.button:hover{
+    background-color: #64ffdb43;
+    transition: .3s;
+}
+
+.container_form{
+    display: grid;
+    height: 130vh;
+    place-items: center;
+    font-family: 'poppins' sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+    //background-color: hsl(219, 48%, 8%);
+    background-color: #041C32;
+}
+
+.form {
+    height: 90vh;
+    box-sizing: border-box;
+}
+
+.buttonBack{
+    text-decoration: none;
+}
+
+.button{
+    margin-top: 35px;
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container_form .form {
+    max-width: 450px;
+    margin: 0 auto;
+    //background-color: hsl(219, 32%, 12%);
+    background-color: #04293A;
+    //background-color: #A62349;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 300px;
+}
+
+input{
+    position: relative;
+    top: 3px;
+    right: 10px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid;
+    outline: none;
+    padding: 1.5rem;
+    z-index: 1;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.inputName, .InputDescription, .InputImage{
+    background-color: transparent;
+}
+
+label{
+    position: absolute;
+    padding: .25rem;
+    z-index: 10;
+    //background-color:  hsl(219, 32%, 12%);
+    background-color: #04293A;
+    //background-color: #A62349;
+}
+
+.Box-Check{
+    padding: 3px;
+}
+
+.description{
+    width: 50%;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.SubContainer-Form input,
+.description textarea {
+    background: transparent;
+    border: solid 2px;
+    border-radius: 5px;
+    border-bottom: 2px solid ;
+    padding: 0.25rem;
+    color: aliceblue;
+    width: 100%;
+}
+
+::-webkit-input-placeholder {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'poppins' sans-serif;
+    font-size: 15px;
+}
+
+.container_form select {
+    width: 12rem;
+    margin: 0.33rem;
+    padding: 0.33rem;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: bold;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+    color:  hsl(207, 90%, 72%);
+    }
+}
+
+.selectors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.button_create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit{
+    background-color: transparent;
+    border: 2px solid #64ffda;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 10px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: #64ffdb43;
+    transition: .3s;
+}

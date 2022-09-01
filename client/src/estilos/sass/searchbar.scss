@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    height: 60px;
+}
+
+.search_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    //background-color: hsl(219, 32%, 12%);
+    background-color: #04293A;
+    //background-color: transparent;
+    //background-color: #064663;
+    //border: 1px solid #64ffda;
+    border-radius: 70px;
+
+    .inputSearch {
+        background: transparent;
+        outline: none;
+        margin-left: 10px;
+        //padding: 10px 10px;
+        color: aliceblue;
+        font-size: 15px;
+        margin-bottom: 17px;
+        font-family: "SF Mono","Fira Code","Fira Mono","Roboto Mono",monospace;
+        //font-family: 'poppins' sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        border: none;
+    } 
+
+    .submit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+        cursor: pointer;
+        background-color: rgba(5, 11, 16, 0.598);
+        //margin-top: 40px;
+        font-size: 12px;
+        margin-bottom: 25px;
+        padding: 24px; 
+        color: aliceblue;
+        border: none;
+        //border: 1px solid #64ffda;   
+    }   
+}
+.search_bar:hover{
+    background-color: #64ffdb43;
+    transition: .3s;
+}
+
+.submit:hover {
+    color: aliceblue;
+    background-color: #64ffdb43;
+    transition: .3s;
+}
