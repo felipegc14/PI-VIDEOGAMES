@@ -20,11 +20,13 @@
     border: none;
     font-size: 20px;
     color: aliceblue;
-    background-color: #041C32;
+    background-color: rgb(67, 73, 139);
+    //background-color: #041C32;
     font-weight: bolder;
     cursor: pointer;
 }
 
 .landingButton:hover {
-    background-color: rgb(67, 73, 139);
+    transition: .3s;
+    background-color: rgba(67, 73, 139, 0.532);
 }

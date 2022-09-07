@@ -15,7 +15,7 @@ router.post('/videogame', async(req, res) => {
             platforms,
             background_image 
         })
-        const findGenre = await Genre.findOne({    
+        const findGenre = await Genre.findAll({    
             where: {name: genres}
         }) 
         await newVideogame.addGenre(findGenre)

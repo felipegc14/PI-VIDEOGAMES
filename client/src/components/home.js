@@ -126,6 +126,7 @@ export default function Home() {
                         allVideogames={allVideogames.length}
                         videogamesPerPage={videogamesPerPage}
                         pagination={pagination}
+                        page={page}
                     />
                 </div>
                 <div className="card_container">
@@ -149,6 +150,7 @@ export default function Home() {
                     <Pagination 
                         allVideogames={allVideogames.length}
                         videogamesPerPage={videogamesPerPage}
+                        page={page}
                         pagination={pagination}
                     />
                 </div> */}
