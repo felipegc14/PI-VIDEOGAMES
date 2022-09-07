@@ -77,6 +77,7 @@ export default function Home() {
         { allVideogames.length === 0 ? (
             <div className="pacLoader">
             <PacmanLoader 
+            className="pacman"
             color="yellow"
             margin={0}
             size={50}/>
